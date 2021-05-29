@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Gym Master",
+    "slug": "WP_Gym_Application",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 1,
+      "package": "com.pushnifty.gymapp"
+    },
+    "ios": {
+      "buildNumber": "1.0.1",
+      "bundleIdentifier": "com.pushnifty.gymapp",
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
